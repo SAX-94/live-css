@@ -42,3 +42,32 @@ footer{
 section{
     width: 80%;
 }
+
+/* main{
+    background-color: lightblue;
+    background-image: url('../img/back.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50px 40%;
+    background-attachment: scroll;
+} */
+/* si utilizza ../ per uscire dalla cartella in
+cui si trova il file su cui stiamo lavorando */
+
+/* per uscire di 2 cartelle si usa ../../ */
+
+.python-bg{
+    background-image: url('../img/python-img.jpg');
+    width: 140px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-cover{
+    background-size: cover;
+}
+
+.bg-contain{
+    background-size: contain;
+}
